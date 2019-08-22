@@ -1,16 +1,3 @@
-# Western Michigan University, Computer Science Department
-# Mehdi Mohammadi
-# February 27, 2014
-
-# This program implements ID3 algorithm in python. The input should be a file
-# containing the training data.
-# The format of training data is as follows:
-#     A. At the first line put the attribute (column) names separated by comma.
-#     B. In the consequnce lines, attribue values must come in the order of 
-#     attribute names and separated by comma.
-#
-# The output is a decision tree and its demonstration.
-
 import math
 
 class DecisionTree:
